@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>CSS-Layout-Assignment</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo">
+        <h1><a href="../index.html">AS Blogs</a></h1>
+      </div>
+      <div class="navbar">
+        <ul>
+          <li><a href="../index.html">Home🏠</a></li>
+          <li><a href="about.html">About📖</a></li>
+          <li><a href="feedback.html" class="active">Feedback🙂</a></li>
+          <li><a href="contact.html">Contact💬</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="feedback">
+        <form target="_blank" action="action.html" method="get">
+            <table class="form" cellpadding="10">
+              <tr>
+                <td colspan="2" style="text-align: center">
+                  <h4>Fill out our form so we can get your feedback</h4>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="name">Name: </label>
+                </td>
+                <td>
+                  <input type="text" name="name" placeholder="Enter your name" />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="number">Phone Number :</label>
+                </td>
+                <td>
+                  <input
+                    type="tel"
+                    name="number"
+                    placeholder="Enter your Number"
+                  />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="email">Email :</label>
+                </td>
+                <td>
+                  <input type="email" name="email" placeholder="abc@gmail.com" />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for="feedback">Feedback:</label>
+                </td>
+                <td>
+                  <textarea name="feedback" cols="30" rows="3"></textarea>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <input type="submit" value="Send Feedback" id="submit" />
+                </td>
+                <td>
+                  <input type="reset" value="Reset FeedBack" id="reset" />
+                </td>
+              </tr>
+            </table>
+          </form>
+    </div>
+    <div class="footer">
+      <p>CopyRight &copy; 2024 by <strong>Asheel Ahmed Siddiqui</strong></p>
+    </div>
+  </body>
+</html>
